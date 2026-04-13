@@ -1,0 +1,43 @@
+---
+title: A Teacher Workshop for Introducing Computational Thinking in Rural and Vulnerable
+  Environments
+authors:
+- Jocelyn Simmonds
+- Francisco J. Gutierrez
+- Cecilia Casanova
+- Cecilia Sotomayor
+- Nancy
+date: '2019-01-01'
+publishDate: '2023-11-23T02:26:24.242264Z'
+publication_types:
+- paper-conference
+publication: '*Proceedings of the 50th ACM Technical Symposium on Computer Science
+  Education*'
+doi: 10.1145/3287324.3287456
+abstract: In Latin America, computational thinking workshops are mostly developed
+  in urban areas, charging participation fees. And although teachers are increasingly
+  being expected to include technology in their classrooms, computational thinking
+  and programming are not mandatory topics in teacher training programs. This hinders
+  the development of digital skills among Latino students, and we expect that the
+  digital gap between urban and rural populations will expand over time, especially
+  in socio-economically vulnerable populations. Believing that teachers can be agents
+  of change, we designed a 12 hour workshop to train the K-8 teaching staff in a rural
+  and vulnerable school. The goal of this experience was to help these teachers develop
+  basic computational thinking skills and devise new ways to incorporate what they
+  learned in their classrooms. In this paper, we report our experience facilitating
+  this workshop, and analyze the teacher perceptions before and after the intervention.
+  Teacher attitudes changed drastically during the execution of the workshop, and
+  they were able to come up with creative ways of incorporating computational thinking
+  activities into their subjects. The reported experience can be used as input to
+  develop public policies with respect to how computational thinking should be introduced
+  in rural and vulnerable environments.
+tags:
+- teacher development
+- socio-economic vulnerability
+- computational thinking
+- rural environments
+- latin america
+links:
+- name: URL
+  url: https://doi.org/10.1145/3287324.3287456
+---

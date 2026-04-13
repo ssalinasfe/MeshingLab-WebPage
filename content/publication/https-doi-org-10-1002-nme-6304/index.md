@@ -1,0 +1,41 @@
+---
+title: A nodal integration scheme for meshfree Galerkin methods using the virtual
+  element decomposition
+authors:
+- R. Silva-Valenzuela
+- AlejandroOrtizBernardin
+- N. Sukumar
+- E. Artioli
+- Nancy
+date: '2020-01-01'
+publishDate: '2023-11-23T02:17:01.267849Z'
+publication_types:
+- article-journal
+publication: '*International Journal for Numerical Methods in Engineering*'
+doi: https://doi.org/10.1002/nme.6304
+abstract: Summary In this article, we present a novel nodal integration scheme for
+  meshfree Galerkin methods, which draws on the mathematical framework of the virtual
+  element method. We adopt linear maximum-entropy basis functions for the discretization
+  of field variables, although the proposed scheme is applicable to any linear meshfree
+  approximant. In our approach, the weak form integrals are nodally integrated using
+  nodal representative cells that carry the nodal displacements and state variables
+  such as strains and stresses. The nodal integration is performed using the virtual
+  element decomposition, wherein the bilinear form is decomposed into a consistency
+  part and a stability part that ensure consistency and stability of the method. The
+  performance of the proposed nodal integration scheme is assessed through benchmark
+  problems in linear and nonlinear analyses of solids for small displacements and
+  small-strain kinematics. Numerical results are presented for linear elastostatics
+  and linear elastodynamics and viscoelasticity. We demonstrate that the proposed
+  nodally integrated meshfree method is accurate, converges optimally, and is more
+  reliable and robust than a standard cell-based Gauss integrated meshfree method.
+tags:
+- maximum-entropy approximants
+- meshfree Galerkin methods
+- nodal integration
+- patch test
+- stability
+- virtual element method
+links:
+- name: URL
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.6304
+---

@@ -1,0 +1,61 @@
+---
+title: Optimising adjacent membrane segmentation and parameterisation in multicellular
+  aggregates by piecewise active contours
+authors:
+- J. JARA-WILDE
+- I. CASTRO
+- C.G. LEMUS
+- K. PALMA
+- F. VALDÉS
+- V. CASTAÑEDA
+- Nancy
+- M.L. CONCHA
+- S. HÄRTEL
+date: '2020-01-01'
+publishDate: '2023-11-23T02:17:01.274447Z'
+publication_types:
+- article-journal
+publication: '*Journal of Microscopy*'
+doi: https://doi.org/10.1111/jmi.12887
+abstract: 'Summary In fluorescence microscopy imaging, the segmentation of adjacent
+  cell membranes within cell aggregates, multicellular samples, tissue, organs, or
+  whole organisms remains a challenging task. The lipid bilayer is a very thin membrane
+  when compared to the wavelength of photons in the visual spectra. Fluorescent molecules
+  or proteins used for labelling membranes provide a limited signal intensity, and
+  light scattering in combination with sample dynamics during in vivo imaging lead
+  to poor or ambivalent signal patterns that hinder precise localisation of the membrane
+  sheets. In the proximity of cells, membranes approach and distance each other. Here,
+  the presence of membrane protrusions such as blebs; filopodia and lamellipodia;
+  microvilli; or membrane vesicle trafficking, lead to a plurality of signal patterns,
+  and the accurate localisation of two adjacent membranes becomes difficult. Several
+  computational methods for membrane segmentation have been introduced. However, few
+  of them specifically consider the accurate detection of adjacent membranes. In this
+  article we present ALPACA (ALgorithm for Piecewise Adjacent Contour Adjustment),
+  a novel method based on 2D piecewise parametric active contours that allows: (i)
+  a definition of proximity for adjacent contours, (ii) a precise detection of adjacent,
+  nonadjacent, and overlapping contour sections, (iii) the definition of a polyline
+  for an optimised shared contour within adjacent sections and (iv) a solution for
+  connecting adjacent and nonadjacent sections under the constraint of preserving
+  the inherent cell morphology. We show that ALPACA leads to a precise quantification
+  of adjacent and nonadjacent membrane zones in regular hexagons and live image sequences
+  of cells of the parapineal organ during zebrafish embryo development. The algorithm
+  detects and corrects adjacent, nonadjacent, and overlapping contour sections within
+  a selected adjacency distance d, calculates shared contour sections for neighbouring
+  cells with minimum alterations of the contour characteristics, and presents piecewise
+  active contour solutions, preserving the contour shape and the overall cell morphology.
+  ALPACA quantifies adjacent contours and can improve the meshing of 3D surfaces,
+  the determination of forces, or tracking of contours in combination with previously
+  published algorithms. We discuss pitfalls, strengths, and limits of our approach,
+  and present a guideline to take the best decision for varying experimental conditions
+  for in vivo microscopy.'
+tags:
+- Active contours
+- adjacent membranes
+- cell adhesion
+- fluorescence microscopy
+- image processing
+- segmentation
+links:
+- name: URL
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1111/jmi.12887
+---

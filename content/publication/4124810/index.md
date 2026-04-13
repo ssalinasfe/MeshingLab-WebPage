@@ -1,0 +1,34 @@
+---
+title: 'Clustering of 3D Spatial Points Using Maximum Likelihood Estimator over Voronoi
+  Tessellations: Study of the Galaxy Distribution in Redshift Space'
+authors:
+- Daniel Pizarro
+- Luis E. Campusano
+- Roger G. Clowes
+- Patrizzio Virgili
+- Nancy
+- Ilona K. Sochting
+date: '2006-07-01'
+publishDate: '2023-11-25T02:08:55.517171Z'
+publication_types:
+- paper-conference
+publication: '*2006 3rd International Symposium on Voronoi Diagrams in Science and
+  Engineering*'
+doi: 10.1109/ISVD.2006.15
+abstract: This paper describes an algorithm based on the 2D approach of Allard & Fraley
+  that uses Voronoi tessellation and a non-parametric maximum likelihood estimator.
+  We have designed a 3D version of this algorithm which detects multiple clusters
+  of points immersed in background noise; its application to the detection of galaxy
+  clusters in redshift space, using the astronomical database of the 2-degree Field
+  Galaxy Redshift Survey, is presented and discussed. Adopting as a benchmark a particular
+  set of catalogued clusters of galaxies, we find that the proposed algorithm recognizes
+  the location of ~ 67% of the clusters. Three variants of the algorithm were assessed
+  to deal with the elongation of the clusters in the radial direction of observation
+  introduced by the astronomical distance indicator; their merits and limitations
+  are discussed. We address separately the detection of the galaxy cluster location
+  and the detection of galaxy cluster members, both of them having an anisotropic
+  space as their search domain. In the case of detection of galaxy cluster members,
+  a second stage of detection was incorporated in order to improve the results.
+tags:
+- ''
+---

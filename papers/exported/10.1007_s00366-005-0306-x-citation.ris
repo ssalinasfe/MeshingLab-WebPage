@@ -1,0 +1,16 @@
+TY  - JOUR
+AU  - Hitschfeld-Kahler, N.
+PY  - 2005
+DA  - 2005/12/01
+TI  - Generation of 3D mixed element meshes using a flexible refinement approach
+JO  - Engineering with Computers
+SP  - 101
+EP  - 114
+VL  - 21
+IS  - 2
+AB  - This paper describes and discusses the main characteristics and implementation issues of a 3D mixed element mesh generator based on a generalization of the modified octree approach. This mesh generator uses primitive elements of different type as internal nodes, a flexible refinement approach as refinement strategy (primitive elements are not always bisected), and bricks, pyramids, prisms and tetrahedra as final elements. The mesh generation process is divided in several steps: the generation of the initial mesh composed of primitive elements, the refinement of primitive elements until the point density requirements are fulfilled, the generation of a graded mesh between dense and coarse regions, and finally, the recognition of the final elements. The main algorithms and data structures are described in detail for each step of the mesh generation process. As result, examples of meshes that satisfy the Delaunay condition and that can be used with the control volume method are shown.
+SN  - 1435-5663
+UR  - https://doi.org/10.1007/s00366-005-0306-x
+DO  - 10.1007/s00366-005-0306-x
+ID  - Hitschfeld-Kahler2005
+ER  - 

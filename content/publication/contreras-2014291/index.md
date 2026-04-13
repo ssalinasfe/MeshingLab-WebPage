@@ -1,0 +1,37 @@
+---
+title: Generation of Polyhedral Delaunay Meshes
+authors:
+- David Contreras
+- Nancy
+date: '2014-01-01'
+publishDate: '2023-11-25T01:51:41.986565Z'
+publication_types:
+- article-journal
+publication: '*Procedia Engineering*'
+doi: https://doi.org/10.1016/j.proeng.2014.10.391
+abstract: A polyhedral mesh fulfills the Delaunay condition if the vertices of each
+  polyhedron are co-spherical and each polyhedron circum- sphere is point-free. If
+  Delaunay tessellations are used together with the finite volume method, it is not
+  necessary to partition each polyhedron into tetrahedra; co-spherical elements can
+  be used as final elements. This paper presents a mixed-element mesh gen- erator
+  based on the modified octree approach that has been adapted to generate polyhedral
+  Delaunay meshes. The main difference with its predecessor is to include a new algorithm
+  to compute Delaunay tessellations for each 1-irregular cuboids (cuboids with at
+  most one Steiner point on their edges) that minimize the number of mesh elements.
+  In particular, we show that when Steiner points are located at edge midpoints, 24
+  different co-spherical elements can appear while tessellating 1-irregular cubes.
+  By inserting internal faces and edges to these new elements, this number can be
+  reduced to 13. When 1-irregular cuboids with aspect ratio equal to √2 are tessellated,
+  10 co-spherical elements are required. If 1-irregular cuboids have aspect ratio
+  between 1 and √2, all the tessellations are adequate for the finite volume method.
+  The proposed algorithm can be applied to any point set to compute the Delaunay tessellation
+  inside the convex hull of the point set. Simple polyhedral Delaunay meshes generated
+  by using the adapted mesh generator are shown.
+tags:
+- Delaunay tessellations
+- Polyhedral meshes
+- Octrees.
+links:
+- name: URL
+  url: https://www.sciencedirect.com/science/article/pii/S1877705814016701
+---

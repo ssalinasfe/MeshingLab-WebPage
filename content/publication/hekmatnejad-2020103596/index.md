@@ -1,0 +1,40 @@
+---
+title: Investigating the impact of the estimation error of fracture intensity (P32)
+  on the evaluation of in-situ rock fragmentation and potential of blocks forming
+  around tunnels
+authors:
+- Amin Hekmatnejad
+- benoitcrespin
+- Alvaro Opazo
+- Xavier Emery
+- Nancy
+- Davide Elmo
+date: '2020-01-01'
+publishDate: '2023-11-23T02:17:01.261387Z'
+publication_types:
+- article-journal
+publication: '*Tunnelling and Underground Space Technology*'
+doi: https://doi.org/10.1016/j.tust.2020.103596
+abstract: 'The purpose of this work is to highlight the impact of input parameters
+  uncertainty in discrete fracture network (DFN) models and their engineering applications.
+  We show how the error of an input parameter, here the volumetric discontinuity intensity
+  P32, impacts the DFN model and two important rock mechanics engineering applications:
+  the in-situ fragmentation size distribution and the potential of formation of removable
+  blocks around tunnels, as two key parameters at block cave mining designs. The volumetric
+  discontinuity intensity (P32) is estimated by two different approaches: the first
+  one estimates P32 directly from 1D data and it is straightforward to implement,
+  while the second one is based on the simulation of DFN models and needs both 1D
+  and 2D data sets, which makes it less flexible and time consuming. The estimated
+  values of P32 obtained from the direct approach are found to be more accurate than
+  those by the simulation approach, with significant impacts observed in the constructed
+  discrete fracture network models and in the estimation of the in-situ fragmentation
+  size distribution and potential of formation of removable blocks around tunnels.'
+tags:
+- Discrete fracture network model
+- Volumetric discontinuity intensity
+- In-situ fragmentation size distribution
+- Kinematic block stability analysis
+links:
+- name: URL
+  url: https://www.sciencedirect.com/science/article/pii/S0886779820305502
+---

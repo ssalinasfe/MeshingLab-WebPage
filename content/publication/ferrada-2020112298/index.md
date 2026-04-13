@@ -1,0 +1,40 @@
+---
+title: A filtering technique for fast Convex Hull construction in R2
+authors:
+- HectorFerrada
+- CristobalANavarro
+- Nancy
+date: '2020-01-01'
+publishDate: '2023-11-23T02:17:01.254461Z'
+publication_types:
+- article-journal
+publication: '*Journal of Computational and Applied Mathematics*'
+doi: https://doi.org/10.1016/j.cam.2019.06.014
+abstract: This work presents an optimization technique that reduces the computational
+  cost for building the Convex Hull from a set of points. The proposed method pre-processes
+  the input set, filtering all points inside an eight-vertex polygon in O(n) time
+  and returns a reduced set of candidate points, ordered and distributed across four
+  priority queues. Experimental results show that for a normal distribution of points
+  in two-dimensional space, the filtering approach in conjunction with the Graham
+  scan is up to 10× faster than the qhull library, and between 1.7× to 10× faster
+  than the Convex Hull methods available in the CGAL library. Results on the worst
+  case scenario (when all points lie in the circumference) show that a slight random
+  radial displacement of the points make this method the fastest one. Moreover, when
+  increasing the magnitude of this displacement, the performance of the proposed method
+  scales at a faster rate than the other methods. In terms of memory efficiency, the
+  proposed implementation manages to use from 3× to 6× less memory than the other
+  methods. The reason behind this memory improvement is because the proposed method
+  stores indices of the input arrays, avoiding duplicates of the original floating
+  points. Furthermore, the approach extends the problem size up to n≤240 by employing
+  5-byte indices (instead of 8-bytes) when n≥232. The optimization technique presented
+  in this work has shown to be significantly useful in accelerating the computation
+  of the Convex Hull, and it is not limited just to the combination with the Graham
+  scan, but it can also be used in conjunction with other Convex Hull algorithms.
+tags:
+- Convex Hull
+- Filtering Technique
+- Priority queues
+links:
+- name: URL
+  url: https://www.sciencedirect.com/science/article/pii/S0377042719302870
+---

@@ -1,0 +1,38 @@
+---
+title: Affirmative Action for Attracting Women to STEM in Chile
+authors:
+- María Cecilia Bastarrica
+- Nancy
+- Maíra Marques Samary
+- Jocelyn Simmonds
+date: '2018-01-01'
+publishDate: '2023-11-23T02:46:49.718560Z'
+publication_types:
+- paper-conference
+publication: '*Proceedings of the 1st International Workshop on Gender Equality in
+  Software Engineering*'
+doi: 10.1145/3195570.3195576
+abstract: Women are currently almost half of the work force in Chile, but very few
+  of them work in the software industry. In part, this is because there are strong
+  cultural stereotypes about what careers are \"for men\" in Chile. This idea has
+  been further cemented by the standardized admissions process used by Chilean universities,
+  where female mathematics scores have historically been lower than that of their
+  male peers. In order to break these stereotypes and attract more women into STEM
+  careers, the Faculty of Mathematical and Physical Sciences at the University of
+  Chile has created the Gender Equality Admissions Program (PEG, for its name in Spanish,
+  Programa de Ingreso Prioritario de Equidad de Génera) in 2013. Under this program,
+  40 extra women are selected into the most competitive engineering and science program
+  in the country. In the five years that the PEG has been in place, the number of
+  women accepted into the engineering and science program has grown from 19% to more
+  than 32%. Moreover, we have started to see an increase in the enrollment of female
+  students in Software Engineering courses. This growth goes beyond the 40 new female
+  students per year.
+tags:
+- latin america
+- gender
+- female participation
+- STEM careers
+links:
+- name: URL
+  url: https://doi.org/10.1145/3195570.3195576
+---
