@@ -5,7 +5,7 @@
 # Default language
 en:
   languageCode: en-us
-  languageName: "🇬🇧 English"
+  languageName: "English"
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
   menu:
@@ -35,7 +35,7 @@ en:
 # Spanish language
 es:
   languageCode: es
-  languageName: "🇨🇱 Español"
+  languageName: "Español"
   title: Laboratorio de Meshing para Ciencia Aplicada (+Lab)
   params:
     description: El laboratorio +Lab del Departamento de Ciencias de la Computación de la Universidad de Chile se dedica al estudio y desarrollo de algoritmos y herramientas para la creación, manipulación y visualización de mallas poligonales en dos y tres dimensiones.
@@ -66,7 +66,7 @@ es:
 # Chinese language
 zh:
   languageCode: zh
-  languageName: "🇨🇳 中文"
+  languageName: "中文"
   title: 应用科学网格划分实验室 (+Lab)
   params:
     description: 智利大学计算机科学系的+Lab实验室致力于研究和开发用于在二维和三维空间中创建、操纵和可视化多边形网格的算法和工具。
