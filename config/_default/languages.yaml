@@ -7,16 +7,56 @@ en:
   languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
+  menu:
+    main:
+      - name: News
+        url: post
+        weight: 20
+      - name: People
+        url: people
+        weight: 30
+      - name: Lab-Software
+        url: project
+        weight: 40
+      - name: Posters-Slides
+        url: posters
+        weight: 50
+      - name: Publications
+        url: publication
+        weight: 60
+      - name: Projects
+        url: fondecyts
+        weight: 70
+      - name: Location
+        url: location
+        weight: 80
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+# Spanish language
+es:
+  languageCode: es
+  title: Laboratorio de Meshing para Ciencia Aplicada (+Lab)
+  params:
+    description: El laboratorio +Lab del Departamento de Ciencias de la Computación de la Universidad de Chile se dedica al estudio y desarrollo de algoritmos y herramientas para la creación, manipulación y visualización de mallas poligonales en dos y tres dimensiones.
+  menu:
+    main:
+      - name: Noticias
+        url: post
+        weight: 20
+      - name: Integrantes
+        url: people
+        weight: 30
+      - name: Software-Lab
+        url: project
+        weight: 40
+      - name: Posters-Diapositivas
+        url: posters
+        weight: 50
+      - name: Publicaciones
+        url: publication
+        weight: 60
+      - name: Proyectos
+        url: fondecyts
+        weight: 70
+      - name: Ubicación
+        url: location
+        weight: 80
