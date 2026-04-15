@@ -1,12 +1,22 @@
 services:
   hugo:
     build: .
+    container_name: meshing-hugo-live
+    restart: always
     volumes:
       - .:/src:z
-    # ports:
-    #   - "1313:1313"
+      - ../www:/src/public:z  # El link clave
     environment:
       - HUGO_ENVIRONMENT=development
-    # Forzamos el uso del binario hugo
     entrypoint: ["hugo"]
-    command: ["--watch", "--minify", "--baseURL", "https://meshinglab.dcc.uchile.cl/"]
+    command: ["--watch", "--poll", "100ms", "--minify", "--baseURL", "https://meshinglab.dcc.uchile.cl/"]
+
+  git-cli:
+    image: alpine/git
+    container_name: meshing-git-cli
+    volumes:
+      - .:/src
+      - ~/.ssh:/root/.ssh:ro
+    working_dir: /src
+    tty: true
+    stdin_open: true

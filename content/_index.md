@@ -23,18 +23,50 @@ sections:
         Founded by the [**Prof. Dr. Nancy Hitschfeld**](https://meshinglab.dcc.uchile.cl/author/nancy-hitschfeld-kahler/).
 
 
-  - block: markdown
+  - block: slider
     content:
-      title: |
-        
-      subtitle: 
-      text: |
-        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; align-items: center; justify-items: center; margin: -60px 0;">
-            <img src="/media/bullita_a2000n_color (copy).png" alt="Bullita" style="width: 100%; max-height: 400px; object-fit: contain;">
-            <img src="/media/pikachu_A500000_T531_V352.png" alt="Pikachu" style="width: 100%; max-height: 400px; object-fit: contain;">
-            <img src="/media/polyllalogo2.png" alt="Polylla Logo" style="width: 100%; max-height: 400px; object-fit: contain;">
-            <img src="/media/lagolobarnechea.png" alt="Lago Lo Barnechea" style="width: 100%; max-height: 400px; object-fit: contain;">
-        </div>
+      slides:
+      - title: ""
+        content: ""
+        align: center
+        background:
+          image:
+            filename: bullita_a2000n_color (copy).png
+          size: contain
+          color: '#fff'
+          position: center
+      - title: ""
+        content: ""
+        align: center
+        background:
+          image:
+            filename: pikachu_A500000_T531_V352.png
+          size: contain
+          color: '#fff'
+          position: center
+      - title: ""
+        content: ""
+        align: center
+        background:
+          image:
+            filename: polyllalogo2.png
+          size: contain
+          color: '#fff'
+          position: center
+      - title: ""
+        content: ""
+        align: center
+        background:
+          image:
+            filename: lagolobarnechea.png
+          size: contain
+          color: '#fff'
+          position: center
+    design:
+      slide_height: '600px'
+      is_fullscreen: false
+      loop: true
+      interval: 1500
 
 
   - block: markdown
@@ -132,6 +164,23 @@ sections:
           <div style="background: #fff; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.08); padding: 20px; width: 250px; height: 180px; display: flex; align-items: center; justify-content: center;">
             <img src="/media/albums/ues/usm.png" alt="Universidad Técnica Federico Santa María" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain;">
           </div>
+        </div>
+
+  - block: markdown
+    content:
+      title: |
+        Partner Laboratories
+      text: |
+        <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 40px; padding: 20px 0;">
+          <a href="https://camlab.cl/" target="_blank" rel="noopener" style="background: #fff; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.08); padding: 20px; width: 250px; height: 180px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease; cursor: pointer;">
+            <img src="/media/albums/labs/camlab.png" alt="CAMLab" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain;">
+          </a>
+          <a href="https://ceaza.cl/" target="_blank" rel="noopener" style="background: #fff; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.08); padding: 20px; width: 250px; height: 180px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease; cursor: pointer;">
+            <img src="/media/albums/labs/ceaza.png" alt="CEAZA" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain;">
+          </a>
+          <a href="http://temporal.uach.cl/" target="_blank" rel="noopener" style="background: #fff; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.08); padding: 20px; width: 250px; height: 180px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease; cursor: pointer;">
+            <img src="/media/albums/labs/temporal.png" alt="Temporal" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain;">
+          </a>
         </div>
 ---
 

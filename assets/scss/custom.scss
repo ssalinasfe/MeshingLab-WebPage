@@ -78,3 +78,17 @@
   color: #666666;
   line-height: 1.4;
 }
+
+/* Home Slider - Ensure images fit in full without cropping */
+.wg-slider .carousel-item {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-color: #ffffff !important;
+}
+
+/* Make slider arrows visible on white background */
+.wg-slider .carousel-control-prev-icon,
+.wg-slider .carousel-control-next-icon {
+  filter: invert(1) grayscale(100);
+}

@@ -29,8 +29,8 @@ main:
     url: fondecyts
     weight: 70
 
-  - name: Tour
-    url: tour
+  - name: Location
+    url: location
     weight: 80
 #  - name: Contact
 #    url: contact
